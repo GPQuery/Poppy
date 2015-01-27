@@ -1,0 +1,36 @@
+<div class="panel panel-default panel-embed" id="schedule-panel" ng-controller="ScheduleCtrl" ng-init="toggleSchedule">
+  <div class="panel-heading">
+		<h3 class="panel-title">
+      Schedule
+      <i class="fa" 
+        ng-click="toggleSchedule = !toggleSchedule"
+        ng-class="{'fa-plus' : toggleSchedule, 'fa-minus' : !toggleSchedule}">
+      </i>
+    </h3>
+	</div>
+
+  <div class="panel-body table-panel-body" collapse="toggleSchedule">
+    <table class="table table-condensed">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Track</th>
+        </tr>
+      </thead>
+      <tbody>
+          <!--
+          <tr ng-repeat="track in tracks.children[0].children">
+          <td>{{track.duration}}</td>
+          <td>{{track.name}}</td>
+          <td>{{track.uri}}</td>
+          -->
+          <tr ng-repeat="track in tracks">
+            <td>{{track.time | date: 'EEE d/M'}}</td>
+            <td>{{track.time | date: 'HH:mm:ss'}}</td>
+            <td>{{track.name}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

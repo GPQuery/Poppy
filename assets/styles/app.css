@@ -1,0 +1,35 @@
+div.panel.panel-default.panel-embed#webchat-panel {
+}
+a.navbar-brand {
+
+}
+a.navbar-brand > img {
+    position:absolute;
+    left:0;
+    top:0;
+}
+a.navbar-brand * {
+    text-shadow: 2px 2px #333;
+}
+a.navbar-brand > sub {
+    padding-left:12px;
+}
+
+input#raceFilter {
+    width:100%;
+    color:#333;
+    padding:2px;
+    font-size:13px;
+}
+div.panel-body.table-panel-body {
+    overflow-y:scroll;
+}
+div#schedule-panel > .panel-body  {
+    max-height: 640px;
+}
+div#requests-panel > .panel-body {
+    max-height: 540px;
+}
+body > div.container-fluid {
+    margin-top:50px;
+}

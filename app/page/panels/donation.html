@@ -1,0 +1,64 @@
+<div class="panel panel-default" ng-init="toggleDonation">
+  <div class="panel-heading">
+    <h3 class="panel-title">Donations
+      <i class="fa" 
+        ng-click="toggleDonation = !toggleDonation"
+        ng-class="{'fa-plus' : toggleDonation, 'fa-minus' : !toggleDonation}">
+      </i>
+    </h3>
+  </div>
+  <div class="panel-body" collapse="toggleDonation">
+    <p>Please show your appreciation for this 24/7 ad-free stream by donating an amount of your choosing!</p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" class="donatePP">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="KLGWRUGZXR93U">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+    <p>For those of you who wish to donate in Bitcoins, please <a href="http://www.reddit.com/message/compose/?to=opiates_" target="_blank">message me on Reddit.</a></p>
+    <hr />
+
+
+    <p>Alternatively, donations in the form of computer hardware to upgrade the media server are appreciated--message me for further details!</p>
+<!--    
+    <table class="table table-condensed">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Current</th>
+          <th>Upgrade Info</th>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Motherboard</th>
+          <td colspan="2"><a href="http://h20566.www2.hp.com/hpsc/doc/public/display?docId=emr_na-c02560084">N-Alvorix-RS880-uATX (Alvorix)</a></td>
+        </tr>
+        <tr>
+          <th>Processor</th>
+          <td>AMD Athlon II X2 @ 3.0GHz</td>
+          <td>Socket AM3</td>
+        </tr>
+        <tr>
+          <th>Memory</th>
+          <td>5120MB (5.0GB)</td>
+          <td>4x 240-pin DDR3 DIMM:<br/>
+             • PC3-8500/DDR3-1066<br/>
+             • PC3-10600/DDR3-1333</td>
+        </tr>
+        <tr>
+          <th>Graphics</th>
+          <td>ATI Radeon 4200 Integrated</td>
+          <td>PCI Express x16</td>
+        </tr>
+        <tr>
+          <th>Storage</th>
+          <td>SATA, assorted</td>
+          <td>Anything ≥ 1TB</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Enjoy!  :)</p>
+    -->
+  </div>
+</div>
+

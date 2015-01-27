@@ -1,0 +1,5 @@
+.old/
+config/
+/bower_components/jquery/*
+/bower_components/bootstrap/*
+!/bower_components/bootstrap/dist/

@@ -1,0 +1,15 @@
+<div class="panel panel-default panel-embed" id="webchat-panel" ng-init="toggleWebchat; loadWebchat">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      Webchat
+      <a>
+        <i class="fa pull-right" 
+          ng-click="toggleWebchat = !toggleWebchat"
+          ng-class="{'fa-plus' : toggleWebchat, 'fa-minus' : !toggleWebchat}">
+        </i>
+      </a>
+    </h3>
+  </div>
+  <div class="panel-body" collapse="toggleWebchat" ng-include="'config/chat.html'">
+  </div>
+</div>

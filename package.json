@@ -1,0 +1,23 @@
+{
+  "name": "PoppySeedParty",
+  "version": "0.0.0",
+  "description": "GPQuery\\Poppy",
+  "main": "index.html",
+  "dependencies": {
+    "npm": "^1.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GPQuery/Poppy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GPQuery/Poppy/issues"
+  },
+  "homepage": "https://github.com/GPQuery/Poppy"
+}

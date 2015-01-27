@@ -1,0 +1,13 @@
+<div class="panel panel-default" ng-init="toggleAnnounce">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      Announcements
+      <i class="fa" 
+        ng-click="toggleAnnounce = !toggleAnnounce"
+        ng-class="{'fa-plus' : toggleAnnounce, 'fa-minus' : !toggleAnnounce}">
+      </i>
+    </h3>
+  </div>
+  <div class="panel-body" collapse="toggleAnnounce" ng-include src="'config/announce.html'">
+  </div>
+</div>
