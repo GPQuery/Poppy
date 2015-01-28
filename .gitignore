@@ -1,5 +1,17 @@
-.old/
+#######################
+# Configuration Files #
+#######################
 config/
-/bower_components/jquery/*
-/bower_components/bootstrap/*
-!/bower_components/bootstrap/dist/
+api/parse-playlist/playlist.m3u
+api/parse-playlist/config.php
+
+#########################
+# Packages/Dependencies #
+#########################
+node_modules/
+bower_components/
+
+#################
+# Miscellaneous #
+#################
+.old/

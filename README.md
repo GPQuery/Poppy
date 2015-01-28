@@ -1,54 +1,110 @@
-Poppy Seed Party
-======
+`GPQuery\Poppy`
+===============
 
 Description
------------------
+-----------
 
-`GPQuery\Poppy`
+Propagatrix Soiree de Papaveraceae.
 
-Propagatrix Soiree de Papaveraceae
+This web application is written in AngularJS for #f1.
 
-Modularised AngularJS Version, Stable Release
 
-Directory Structure
--------------
+
+
+## Directory Structure
 ```
-  .git/                         --> Git
-  api/                          --> API Files
-    parse-playlist/             --> Playlist PHP Parser
-  app/
-    core/
-      core.module.js
-      core.services.js
-    page/
-      navbar/
-      panels/
-      stream/
-      page.module.js
-      page.controllers.js
-    app.module.js
-  assets/
-    images/
-    styles/
-      app.css
-      bootstrap.min.css
-      bootstrap-theme.css
-  bower_components/
-    bootstrap/
-    jquery/
-  config/
-    chat.html
-    status.html
-    stream.html
-    stream_https.html
-  favicon.ico
-  .gitignore                    --> Git Ignore List
-  index.html                    --> Application index
-  package.json                  --> npm Application Package File
-  README.md                     --> This Markdown File
+├── api/                                  --> 
+│   └── parse-playlist/                   --> M3U Parser API (BETA)
+│       ├── config.php                    --> Configuration File
+│       ├── index.php                     --> Main Script File
+│       └── playlist.m3u                  --> Schedule M3U Playlist
+├── app/                                  --> Angular Application Files
+│   ├── core/                             --> Core Module
+│   │   ├── core.module.js                --> Intra-App/3rd-Party Dependencies
+│   │   └── core.service.js               --> Core Data Service
+│   ├── page/                             --> Page Component Modules
+│   │   ├── navbar/
+│   │   │   └── navbar.html
+│   │   ├── panels/
+│   │   │   ├── announce.html
+│   │   │   ├── donation.html
+│   │   │   ├── schedule.html
+│   │   │   └── webchat.html
+│   │   ├── stream/
+│   │   │   └── stream.html
+│   │   ├── page.controller.js
+│   │   └── page.module.js
+│   └── app.module.js                     --> Main Application Module
+├── assets/
+│   ├── images/
+│   │   ├── brand.png
+│   │   └── favicon.png
+│   └── styles/
+│       ├── app.css
+│       ├── bootstrap.min.css
+│       └── bootstrap-theme.min.css
+├── config/                               --> Front-End Configuration
+│   ├── announce.html                     --> Announcement Tags
+│   ├── chat.html                         --> WebIRC IFrame
+│   ├── status.html                       --> Stream Status
+│   ├── stream.html                       --> Video IFrame
+│   └── stream_https.html
+├── .gitignore
+├── bower.json                            --> bower manifest
+├── favicon.ico                           --> Favicon
+├── index.html                            --> Application Index
+├── package.json                          --> npm manifest
+└── README.md                             --> dis fiel.
+
 ```
 
--------------
+## Development Process
+In adherence with [Semantic Versioning 2.0.0][semver]
 
-[1]: https://github.com/gpquery/gpquery
-[2]: https://github.com/gpquery/poppy
+```                    
+          ┌── 0.x.x ──┼──────── 1.x.x ────────┐                 
+/master   ╘═══╤═══════╪═══════════╤═════════╦═╪═══════════════════════════════
+            0.9.0   1.0.0-beta  1.0.0-rc.1  ║                       
+/1.1.x                                      ╚═════════════════════════════════
+                                
+```
+
+  |  Version No. | Type    | Description
+  |:-------------|:--------|:----------------------------
+  | 0.9.0        | Build   | Took over from GPQuery/Poppy
+  | 1.0.0-beta   | Beta    | Feature-complete, usable beta
+  | 1.0.0-rc.1   | RC      | Release Candidate
+
+
+[semver]:http://semver.org
+
+---
+
+```
+
+
+
+```
+
+
+
+
+
+
+
+
+
+---
+
+┌─┬┐  ╔═╦╗  ╓─╥╖  ╒═╤╕
+│ ││  ║ ║║  ║ ║║  │ ││
+├─┼┤  ╠═╬╣  ╟─╫╢  ╞═╪╡
+└─┴┘  ╚═╩╝  ╙─╨╜  ╘═╧╛
+┌───────────────────┐
+│  ╔═══╗            │▒
+│  ╚═╦═╝            │▒
+╞═╤══╩══╤═══════════╡▒
+│ ├──┬──┤           │▒
+│ └──┴──┘           │▒
+└───────────────────┘▒
+ ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
