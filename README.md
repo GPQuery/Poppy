@@ -61,50 +61,8 @@ This web application is written in AngularJS for #f1.
 ## Development Process
 In adherence with [Semantic Versioning 2.0.0][semver]
 
-```                    
-          ┌── 0.x.x ──┼──────── 1.x.x ────────┐                 
-/master   ╘═══╤═══════╪═══════════╤═════════╦═╪═══════════════════════════════
-            0.9.0   1.0.0-beta  1.0.0-rc.1  ║                       
-/1.1.x                                      ╚═════════════════════════════════
-                                
-```
-
-  |  Version No. | Type    | Description
-  |:-------------|:--------|:----------------------------
-  | 0.9.0        | Build   | Took over from GPQuery/Poppy
-  | 1.0.0-beta   | Beta    | Feature-complete, usable beta
-  | 1.0.0-rc.1   | RC      | Release Candidate
 
 
 [semver]:http://semver.org
 
 ---
-
-```
-
-
-
-```
-
-
-
-
-
-
-
-
-
----
-
-┌─┬┐  ╔═╦╗  ╓─╥╖  ╒═╤╕
-│ ││  ║ ║║  ║ ║║  │ ││
-├─┼┤  ╠═╬╣  ╟─╫╢  ╞═╪╡
-└─┴┘  ╚═╩╝  ╙─╨╜  ╘═╧╛
-┌───────────────────┐
-│  ╔═══╗            │▒
-│  ╚═╦═╝            │▒
-╞═╤══╩══╤═══════════╡▒
-│ ├──┬──┤           │▒
-│ └──┴──┘           │▒
-└───────────────────┘▒
- ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
