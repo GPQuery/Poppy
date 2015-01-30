@@ -15,3 +15,8 @@ bower_components/
 # Miscellaneous #
 #################
 .old/
+
+##########################
+# Submodules (temporary) #
+##########################
+app/ergast/
