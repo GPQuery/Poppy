@@ -1,0 +1,1 @@
+angular.module('poppy.layout', ['poppy.core']);
